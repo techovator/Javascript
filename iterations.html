@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1 style="text-align: center;">JavaScript Iterables</h1>
+
+<p id="demo"></p>
+
+<script>
+const fruits =["banana","kiwi","apple"];
+let text = "";
+for (const x of fruits) {
+  text += x + "<br>";
+}
+
+document.getElementById("demo").innerHTML = text;
+</script>
+</body>
+</html>
